@@ -1,0 +1,149 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="This is a semantic HTML project that Brian created for the history of the Rubik cube"> 
+    <title>A Rubick's Origins</title> 
+</head>
+
+<body>
+    <header>
+        <h1>The History Behind The Cube</h1>
+    </header>
+
+    <nav>
+         <a href="index.html">Home</a>
+         <a href="pages/about.html">About</a>
+         <a href="#beginnings">The Beginnings</a>
+         <a href="https://howtosolvecube.com/en/learn/history/">The History of Rubik Cubes</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About This Page</h2>
+            <p>This page was built to spread knowledge on the history of the rubick cube</p>
+        </section>
+
+        <section id="beginnings">
+            <h2>The Beginnings</h2>
+            <article>
+                <h3>1974</h3>
+                <p>Ernő Rubik, an architect professor, creates the first ever Rubik cube model using rubber bands and woods to
+                    demonstrate to his students three-dimensional geometry. It took him <strong>a little over a month </strong> to solve it fully
+                    and the first name given to the cube by Rubik was the <em>"Magic Cube".</em>
+                </p>
+                <img src="images/FirstVersions_RubiksCube-Prototype2.png"
+                     alt="A person attempting to solve the first Magic cube model"
+                     width="400">
+            </article>
+        </section>
+
+        <section>
+            <h2>The Buildup</h2>
+            <article>
+                <h3>1977</h3>
+                <p> The Magic cube is sold in toy shops but its startup isn't too popular. The main buyers consisted of mathematicians and curious buyers
+                    wanting to know how such a contraption could be solved.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Versions of Rubik's Cubes</h2>
+            <ul>
+                <li>3x3 Classic Cube</li>
+                <li>2x2 Pocket Cube</li>
+                <li>4x4 Rubik's Revenge</li>
+                <li>Pyraminx</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Speedcubing world Records</h2>
+            <table>
+                <caption>Official WCA Single-Solve World Records by Cube Type (2026)</caption>
+                <thead>
+                    <tr>
+                       <th scope="col">Cube Type</th>
+                       <th scope="col">Record Holder</th>
+                       <th scope="col">Time(seconds)</th>
+                       <th scope="col">Competition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       <td>2x2 Pocket Cube</td>
+                       <td>Ziyu Ye</td>
+                       <td>0.39</td>
+                       <td>Hefei Open 2025</td> 
+                    </tr>
+                    <tr>
+                       <td>3x3 Classic Cube</td>
+                       <td>Teodor Zajder</td>
+                       <td>2.76</td>
+                       <td>GLS Big Cubes Gdansk 2026</td>
+                    </tr>
+                    <tr>
+                        <td>4x4 Rubik's Revenge</td>
+                        <td>Tymon Kolasinski</td>
+                        <td>15.18</td>
+                        <td>Spanish Championship 2025</td>
+                    </tr>
+                    <tr>
+                        <td>5x5 Professor's Cube</td>
+                        <td>Tymon Kolasiński</td>
+                        <td>28.49</td>
+                        <td>All Rounders Katowice I 2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Basic Steps to Solve a 3x3 Rubik's Cube</h2>
+            <ol>
+                <li>Solve the white cross</li>
+                <li>Solve the white corners</li>
+                <li>Solve the middle layer edges</li>
+                <li>Solve the yellow cross</li>
+                <li>Position and orient the last layer</li>
+            </ol>
+        </section>
+
+        <aside>
+            <p>Fun fact: The fastest time a Rubik's cube has ever been solved is under 4 seconds!</p>
+        </aside>
+
+        <section>
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id ="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic">
+                    <option value="history">Cube History</option>
+                    <option value="records">World Records</option>
+                    <option value="solving">Solving Methods</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Brian Okekeuche | CSCE 3420</p>
+    </footer>
+</body>
+</html>
